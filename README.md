@@ -1,5 +1,8 @@
 # r-shinylive-demo
 
+**Testergebnis vom 20.04.2024: Funktioniert leider nicht !  
+Bei Render z.b. index.qmd kommt ERROR: trailing garbage at line 1 col 5**
+
 Interested in deploying a serverless Shiny application for R within Quarto? This is the repository for you! Here's a summary of what you can find in the repository:
 
 - **[index.qmd](index.qmd):** This file contains a tutorial that provides step-by-step instructions and guidance on using `r-shinylive` to embed Shiny applications in Quarto documents.

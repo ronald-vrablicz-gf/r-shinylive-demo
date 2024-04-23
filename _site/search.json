@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "template-r-shinylive.html",
+    "href": "template-r-shinylive.html",
+    "title": "Template for r-shinylive Quarto document",
+    "section": "",
+    "text": "Important\n\n\n\nPlease switch {{shinylive-r}} to {shinylive-r}. We’ve suppressed this example from running by using {{}}.\n\n\n```{shinylive-r}\n#| standalone: true\n\nui &lt;- ...\n\nserver &lt;- function(input, output, session) {\n  ...\n}\n\nshinyApp(ui, server)\n```\nFull Skeletal Document Source:\n---\ntitle: \"Template for r-shinylive Quarto document\"\nformat:\n  html:\n    resources: \n      - shinylive-sw.js\nfilters:\n  - shinylive\n---\n\n```{shinylive-r}\n#| standalone: true\n\nui &lt;- ...\n\nserver &lt;- function(input, output, session) {\n  ...\n}\n\nshinyApp(ui, server)\n```"
+  }
+]
